@@ -147,7 +147,7 @@
 
 - name: Install Helm
   ansible.builtin.command:
-    cmd: snap install helm --channel=3.7/stable --classic
+    cmd: snap install helm --channel=3/stable --classic
     creates: /snap/bin/helm
 
 # ── kubeadm init (control plane) ──────────────────────────────────────────────
